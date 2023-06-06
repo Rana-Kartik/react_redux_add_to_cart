@@ -36,3 +36,45 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* Component css */
+
+.btn-wrapper button{
+  background-color: black;
+  border: 0px;
+  padding: 10px;
+  border-radius: 4px;
+  color: white;
+  box-shadow: black 0px 1px 5px;
+}
+
+.img-wrapper img{
+  width: 100px;
+  height: 100px;
+  margin-top:-10px ;
+}
+
+.cart-wrapper{
+  height: 115px;
+  width: 500px;
+  border: 1px solid black;
+  margin-left: 10px;
+}
+
+.item{
+  float: left;
+  display: inline-block;
+  width: 120px;
+  padding: 20px;
+  height: 70px;
+}
+
+.add-item img{
+  width: 100px;
+  position: absolute;
+  right: 1%;
+  top: 1%;
+}
+
+/* End the css for our app */
